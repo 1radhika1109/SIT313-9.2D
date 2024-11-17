@@ -1,0 +1,67 @@
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.header-divv {
+  background-color: #fff;
+  padding: 30px; /* Reduced padding */
+  border-radius: 8px; /* Reduced border-radius */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 320px; /* Reduced width */
+  min-height: 320px; /* Reduced min-height */
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 16px; /* Reduced margin-bottom */
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px; /* Reduced margin-bottom */
+}
+
+.input-group label {
+  font-weight: bold;
+  margin-bottom: 4px; /* Reduced margin-bottom */
+}
+
+input {
+  padding: 8px; /* Reduced padding */
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Reduced border-radius */
+  width: 100%;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px; /* Reduced border-radius */
+  padding: 8px 16px; /* Reduced padding */
+  cursor: pointer;
+  margin-top: 16px; /* Reduced margin-top */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.signup-link {
+  margin-top: 16px; /* Reduced margin-top */
+  text-align: center;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}

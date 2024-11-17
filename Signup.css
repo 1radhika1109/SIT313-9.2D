@@ -1,0 +1,78 @@
+/* Container for input group styling */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px; /* Increased margin-bottom */
+}
+
+.input-group label {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333; /* Dark color for labels */
+  margin-bottom: 8px; /* Increased margin-bottom */
+}
+
+.input-group input {
+  padding: 12px; /* Increased padding */
+  border-radius: 6px; /* Increased border-radius */
+  border: 1px solid #ddd;
+  background-color: #f9f9f9; /* Light background for input fields */
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #5A67D8; /* Soft blue on focus */
+  outline: none;
+}
+
+/* Main content layout */
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5; /* Light background for the page */
+}
+
+/* Form container styling */
+.form-container {
+  background-color: #fff;
+  padding: 40px; /* Increased padding */
+  border-radius: 12px; /* Increased border-radius */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px; /* Increased max-width */
+}
+
+.form-container h2 {
+  color: #007bff; /* Blue color for the header */
+  font-size: 20px; /* Increased font size */
+  margin-bottom: 24px; /* Increased margin-bottom */
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Button styling for sign-up form */
+.button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px; /* Increased border-radius */
+  background-color: #007bff; /* Blue background for the button */
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 24px; /* Increased margin-top */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Error styling for required fields */
+.input-group input:invalid {
+  background-color: #fff7e6; /* Light yellow background for invalid fields */
+}
